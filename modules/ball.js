@@ -8,9 +8,9 @@ let ballDeltaLeft = 2;
 let ballDeltaTop = 1;
 
 function ballPosChange() {
-    // gets called every fps from run(),
+    // gets called every fps from runGame(),
     // checks if ball is in the top-bottom boundaries, reverse its movement if not
-    // move the ball by the set delta every iteration of run()
+    // move the ball by the set delta every iteration of runGame()
     ballPosLeft += ballDeltaLeft;
     ballPosTop += ballDeltaTop;
     // Makes Game over unattainable, for testing

@@ -51,12 +51,12 @@ function loadScore() {
 }
 
 function pauseResume() {
-    // initiates the game, goes fullscreen, and calls run() every fps
-    //  pauses the game, exits fullscreen, and stops calling run()
+    // initiates the game, goes fullscreen, and calls runGame() every fps
+    //  pauses the game, exits fullscreen, and stops calling runGame()
     if (gameStarted == false) {
         document.documentElement.requestFullscreen();
         controlls.classList.replace('fadeinactive', 'fadeoutactive')
-        run = setInterval(run, fps);
+        run = setInterval(runGame, fps);
     } else {
         document.exitFullscreen();
         controlls.classList.replace('fadeoutactive', 'fadeinactive')
@@ -65,7 +65,7 @@ function pauseResume() {
     gameStarted == true ? gameStarted = false : gameStarted = true;
 }
 
-function run() {
+function runGame() {
     // the main driving factor of the game, loops constantly while game runs
     ballPosChange();
     prePlayerPosChange();

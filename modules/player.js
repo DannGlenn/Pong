@@ -6,7 +6,7 @@ let player2Pos = 0;
 const player2DeltaPos = 2;
 
 function prePlayerPosChange() {
-    // gets called every fps from run(), checks which keys have been recorded
+    // gets called every fps from runGame(), checks which keys have been recorded
     // calls a function to track player position and move it theoretically
     // then calls a function to move the player practically
     if (player1KeyPressed == "a") {

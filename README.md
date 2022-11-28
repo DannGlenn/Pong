@@ -6,7 +6,7 @@ An iteration of the all-time classic video game - Pong
 No installation required,  
 Runs on vanilla Javascript + HTML.  
   
-Simply run by opening index.html
+Simply run index.html via any local or public server
 ## How to play
 
 Designed for 2 players local multiplayer (or Couch multiplayer)  

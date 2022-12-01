@@ -7,7 +7,7 @@ body {
     position: absolute;
     left: 0%;
     width: 48px;
-    height: 18%;
+    height: 150px;
     background: url(./sprites.png) 0 0;
 }
 
@@ -16,7 +16,7 @@ body {
     position: absolute;
     right: 0%;
     width: 48px;
-    height: 18%;
+    height: 150px;
     background: url(./sprites.png) -50px 0;
 }
 
